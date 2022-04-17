@@ -223,6 +223,21 @@ main .container .left-container footer img {
   width: 70px;
 }
 
+footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+footer p {
+  color: hsl(0deg, 0%, 41%);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+footer p a {
+  color: hsl(0deg, 0%, 8%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 600px) {
   main .container .left-container {
     align-self: center;
